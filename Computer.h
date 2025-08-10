@@ -7,8 +7,9 @@ class Computer : public Player {
     std::string name;
 
     public:
-    Computer(const std::string& name);
-    Move* makeMove() override;
-    std::string getName() const override;
+        Computer() : name("Computer") {}  // Add default constructor
+        Computer(const std::string& name);
+        Move* makeMove() override;
+        std::string getName() const override;
 };
 #endif
