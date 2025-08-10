@@ -17,7 +17,7 @@ std::string Human::getName() const {
 
 Move* Human::makeMove() {
     std::string choice;
-    std::coud << "Enter move: ";
+    std::cout << "Enter move: ";
     std::cin >> choice;
 
     if (choice == "Rock")

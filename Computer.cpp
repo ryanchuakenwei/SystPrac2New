@@ -10,8 +10,8 @@
 #include "Ninja.h"
 #include "Zombie.h"
 
-Computer::Computer(const std::string& name) : name(name){
-    std::srand(static_cast<unsigned<(std::time(nullptr)));
+Computer::Computer(const std::string& name) : name(name) {
+    std::srand(static_cast<unsigned>(std::time(nullptr)));
 }
 
 std::string Computer::getName() const {
