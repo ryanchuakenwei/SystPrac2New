@@ -7,4 +7,5 @@ class Move {
         virtual ~Move(){}
         virtual std::string getName() const = 0;
         virtual bool defeats(const Move& other) const = 0;
-}
+};
+#endif
